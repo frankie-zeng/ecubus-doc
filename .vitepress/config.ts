@@ -14,7 +14,7 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-    logo:'../assets/logo256.png',
+    logo:'/assets/logo256.png',
     
 
     socialLinks: [
