@@ -65,7 +65,9 @@ onMounted(() => {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 10px 10%;
+  padding: 10px 50px;
+  max-width: 1800px;
+  margin: 0 auto;
 }
 
 .item {

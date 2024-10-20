@@ -7,7 +7,7 @@ hero:
   text: "汽车总线开发工具"
   
   image:
-    src: /assets/logo256.png
+    src: /logo256.png
     alt: EcuBus-Pro Logo
   actions:
     - theme: brand
