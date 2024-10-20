@@ -4,16 +4,16 @@ layout: home
 
 hero:
   name: "EcuBus-Pro"
-  text: "Automotive Develop Tool"
+  text: "汽车总线开发工具"
   
   image:
     src: /assets/logo256.png
     alt: EcuBus-Pro Logo
   actions:
     - theme: brand
-      text: Download
+      text: 下载
       link: https://ecubus.oss-cn-chengdu.aliyuncs.com/app/EcuBus-Pro.exe
     - theme: alt
-      text: Watch Video
+      text: 观看演示视频
       link: https://space.bilibili.com/270040368
 ---

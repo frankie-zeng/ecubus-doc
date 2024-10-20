@@ -29,27 +29,35 @@ onMounted(() => {
 
 <template>
   <Layout>
+    <template #home-hero-actions-after>
+      <p style="margin-top: 20px;">
+        ECUBus-Pro 是一款创新的<strong>汽车电子系统仿真和测试软件</strong>，为 ECU
+        开发、测试和诊断提供全面解决方案。我们的软件以<strong>卓越的性价比</strong>、<strong>灵活的定制选项</strong>和<strong>用户友好的界面</strong>著称，适用于各类规模的汽车电子开发团队。ECUBus-Pro
+        支持多种汽车通信协议，提供<strong>强大的实时硬件在环（HIL）仿真</strong>能力，并集成了<strong>先进的诊断工具和数据分析功能</strong>。选择 ECUBus-Pro，体验高效、经济且灵活的
+        ECU 开发环境，加速您的汽车电子项目进程。
+      </p>
+    </template>
     <template #home-features-before>
 
       <div class="container">
         <div class="item">
-          <h2>Send and Receive messages</h2>
+          <h2>发送和接收消息</h2>
           <div class="description">
-            <p>Supports manual sending, shortcut key sending and cycle sending.</p>
+            <p>支持手动发送、快捷键发送和循环发送。</p>
           </div>
           <img src="https://ecubus.oss-cn-chengdu.aliyuncs.com/main/main1.png" alt="发送和接收消息界面" class="featureImg">
         </div>
         <div class="item">
-          <h2>UDS Diagnostics</h2>
+          <h2>UDS 诊断</h2>
           <div class="description">
-            <p>Comprehensive UDS service support, integrating multiple services into a streamlined sequence, with robust TS script capabilities.</p>
+            <p>全面支持 UDS 服务，将多个服务整合为简化的序列，并具有强大的 TS 脚本功能。</p>
           </div>
-
           <img src="https://ecubus.oss-cn-chengdu.aliyuncs.com/main/main2.png" alt="加载数据库界面" class="featureImg">
         </div>
       </div>
+
     </template>
-   
+
   </Layout>
 </template>
 <style scoped>
@@ -81,7 +89,9 @@ h1 {
 }
 
 h2 {
-  color: #0066cc;
+  /* color:var(--vp-home-hero-name-color); */
+  font-weight: bold;
+  font-size: 20px;
   margin-top: 0;
 }
 
