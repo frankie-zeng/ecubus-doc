@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
   },
   "type": "module",
   "keywords": [],
@@ -15,5 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "vitepress": "^1.4.1"
+  },
+  "dependencies": {
+    "viewerjs": "^1.11.6"
   }
 }

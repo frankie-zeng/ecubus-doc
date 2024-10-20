@@ -11,17 +11,9 @@ hero:
     alt: EcuBus-Pro Logo
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Download
+      link: https://ecubus.oss-cn-chengdu.aliyuncs.com/app/EcuBus-Pro.exe
     - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: Watch Video
+      link: https://space.bilibili.com/270040368
 ---
